@@ -9,6 +9,7 @@ namespace WebApiMotocicletas
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
-        public DbSet<motocicletas> motocicletas { get; set; }
+        public DbSet<motocicletas> Motocicletas { get; set; }
+        public DbSet<proveedor> Proveedor { get; set;}
     }
 }
